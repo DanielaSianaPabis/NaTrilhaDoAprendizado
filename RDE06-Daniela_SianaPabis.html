@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDE06-Síntese</title>
+</head>
+<body>
+    <h1>SOFTWARES DE VERSIONAMENTO</h1><br>
+    <h2>DEFINIÇÃO</h2>
+    <p>É um sistema que tem por finalidade realizar o controle de versões de um código ou documento. Ademais, o gerenciamento das versões de um código são realizadas diretamente por um desenvolvedor ou uma equipe.</p>
+    <h2>REPOSITÓRIOS: LOCAL E REMOTO</h2>
+    <p>É quase certo que quando se cria um documento/projeto, este necessite de atualizações conforme o tempo.Neste sentido, para que se tenha um controle das novas versões deste documento/projeto criado, é feito por intermédio de um software, um <b>Repositório Local</b>, que criará um <i>histórico de versões</i>, armazenando em um mesmo arquivo as atualizações feitas.<br>
+    Um <b>Repositório Remoto</b> também é uma opção, quando se está trabalhando de forma conjunta (equipe) ou até mesmo sozinho.</p>
+    <h2>SOFTWARE DE CONTROLE DE VERSÃO</h2>
+    <p>O software de controle de versões gerenciará o histórico de versão local e remoto, de modo a sincroniza-los. Dessa forma, um mesmo arquivo que estará em um repositório, estará em outro.</p>
+    <h4>Exemplo:</h4>
+    <p>Imaginemos dois usuários que estão realizando um mesmo projeto, além disso, ambos estão utilizando o Software de Controle de Versionamento, tendo cada um, portanto, um repositório local. Assim, quando os indivíduos realizam a sincronização dos seus projetos no software, este permitirá ou não as alterações requisitadas pelos usuários, bem como notifica-los. Cria-se então, uma versão corrente que possuirá as alterações feitas pelos usuários e estando disponíveis a estes, evitando assim, erros acidentais, como apagar ou alterar um arquivo.</p>
+    <h3>TIPOS DE SOFTWARE DE CONTROLE DE VERSÃO</h3>
+    <h4>Centralizado:</h4>
+    <p>Tem um repositório central em um servidor com controle de versões, ou seja, os usuários entram no servidor e trabalham nele. Além disso, é exclusivamente dependente do servidor, pois se este parar, o controle de versões também irá.</p>
+    <p>Exemplo de software centralizado:</p>
+    <ul>
+        <li>Software subversion</li>
+        <figure>
+            <img src="img-RDE06/Apache_Subversion_logo.svg.png" width="140" height="178" alt="Logo software Subversion">
+        </figure>
+    </ul>
+    <h4>Distribuido:</h4>
+    <p>Possui um repositório local com o controle de versões, ou seja, apenas quando conclui o trabalho é que se fará a atualização no repositório central. Além disso, é independente do servidor.</p>
+    <p>Exemplos de softwares distribuidos:</p>
+    <ul>
+        <li>Software Mercurial</li>
+        <figure>
+            <img src="img-RDE06/mercurial_logo.jpeg" width="150" height="150" alt="Logo software Mercurial">
+        </figure>
+        <li>Git</li>
+        <figure>
+            <img src="img-RDE06/git_logo.jpg" width="140" height="125" alt="Logo Git">
+        </figure>
+    </ul>
+    <h2>GIT</h2>
+    <p>Surgido para o desenvolvimento do Kernel do Linux,<b>o GIT é um Software de Versionamento Livre</b> criado em 2005.<br>Cada diretório de trabalho deste software é um repositório com um histórico completo, além de possuir um acompanhamento das revisões e <b>não dependender de um servidor central.</b></p>
+    <h2>GITHUB</h2>
+    <p><b>Plataforma para hospedar</b> código-fonte e arquivos com controle de versão.</p>
+    <p>Utilizaresmos na displina:</p>
+    <ol type="A">
+        <li>Desktop GitHub - Intermediário entre git e GitHub;</li>
+        <li>VisualStudio Code;</li>
+        <li>GitHub;</li>
+        <li>git.</li>
+    </ol>
+    <h3>Vincular GitHub Desktop ao GitHub</h3>
+    <ol type="1">
+        <li>Acesse o GitHub Desktop e clique na opção demarcada:</li>
+        <figure>
+            <img src="img-RDE06/Criar repositório.jpeg" width="479" height="189" alt="criar repositório">
+        </figure>
+        <li>Configurar o que se pede:</li>
+        <figure>
+            <img src="img-RDE06/Config_repositório.jpeg" width="280" height="280" alt="criar repositório">
+        </figure>
+        <figcaption>Licenças (license) que mais iremos usar:<br>-MIT License (pública)<br>-None (privada))</figcaption>
+        <li>Ao acessar a pasta do GitHub, aparecerá, automaticamente, os arquivos correspondentes:</li>
+        <figure>
+            <img src="img-RDE06/ArquivosGitHub.jpeg" alt="arquivos GitHub">
+        </figure>
+        <li>Após isso, clique em "Publish repository", como demarcado abaixo:</li>
+        <figure>
+            <img src="img-RDE06/Publicar repositório.jpeg" width="435" height="221"alt="arquivos GitHub">
+        </figure>
+        <li>Confugure os últimos requisitos:</li>
+        <figure>
+            <img src="img-RDE06/Config_publicarReposi.jpeg" width="200" height="222" alt="arquivos GitHub">
+        </figure>
+        <figcapition>Certifique-se de que você marcou ou não a opção para deixar o repositório privado ou público.</figcapition>
+        <li>Após todo o processo, basta acessar o GitHub e encontrar o repositório já disponível no canto superior esquerdo sublinhado em azul:</li>
+        <figure>
+            <img src="img-RDE06/repositório.jpeg" width="200" height="222" alt="Repositório disponível">
+        </figure>
+    </ol>
+    <h2>COMANDOS GIT</h2>
+    <figure>
+        <img src="img-RDE06/Comandos Git.jpeg" width="532" height="159" alt="Comandos Git">
+    </figure>
+    <h4>Utilização dos comandos GIT em GitHub Desktop</h4>
+    <p>COMMIT:</p>
+    <figure>
+        <img src="img-RDE06/Commit.jpeg" width="269" height="255" alt="Commit">
+    </figure>
+    <figure>
+        <img src="img-RDE06/History Commit.jpeg" width="269" height="255" alt="Histórico do Commit">
+    </figure>
+    <p>PUSH:</p>
+    <figure>
+        <img src="img-RDE06/Push.jpeg" width="358" height="300" alt="Push">
+    </figure>
+    <p>FETCH:</p>
+    <figure>
+        <img src="img-RDE06/Fetch.jpeg" width="358" height="300" alt="Fetch">
+    </figure>
+    <p>PULL:</p>
+    <figure>
+        <img src="img-RDE06/Pull.jpeg" width="358" height="300" alt="Pull">
+    </figure>
+
+</body>
+</html>
