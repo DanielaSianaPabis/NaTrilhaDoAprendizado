@@ -11,15 +11,17 @@
     <h2>Sumário:</h2>
     <ul>
         <li><a href=#Multimídia>Multimídia</a></li>
-        <li><a href=#TagIframe>Tag &lt;iframe&gt;</a></li>
+        <li><a href=#TagIframe>Tag iframe</a></li>
         <li><a href=#IncorporarOutroSite>Incorporar outro site dentro do site</a></li>
         <li><a href=#IncorporarAudio>Incorporar audio no site</a></li>
         <li><a href=#IncorporarVideos>Incorporar vídeos no site</a></li>
-
+        <li><a href=#Tagvideo>Tag video</a></li>
+        <li><a href=#Tagaudio>Tag audio</a></li>
+        <li><a href=#Tagpicture>Tag picture</a></li>
     </ul>
     <h2><a name="Multimídia">Multimídia</h2>
     <p>Se comporta como um meio de comunicação que combina diferentes formas de conteúdo, tais quais:<b>texto, áudio, imagens, animações ou vídeo</b> em uma única apresentação.</p>
-    <h2><a name="TagIframe">Tag &lt;iframe&gt;</h2>
+    <h2><a name="TagIframe">Tag iframe</h2>
     <p>Usada para incorporar outro documento ao documento HTML, como:<b>áudio, vídeo, imagens, demais sites,etc.</b></p>
     <p>Sintaxe:</p>
     <figure>
@@ -33,7 +35,6 @@
     </figure>
     <p>No navegador:</p>
     <iframe src="http://irati.ifpr.edu.br" height=300 width=300></iframe>
-
     <h3><a name="IncorporarAudio">Incorporar audio no site</h3>
     <p>Esta incorporação se faz muito útil para quando se quer criar um podcast de tecnologia, ou seja, embutir audios de determinado assunto em um site que almejamos.</p>
     <p>Para fazer a incorporação deve:</p>
@@ -49,7 +50,6 @@
     </figure>
     <p>No navegador:</p>
     <iframe width="30%" height="30%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/50984741&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/juan_mj_10" title="Juan Juncos" target="_blank" style="color: #cccccc; text-decoration: none;">Juan Juncos</a> · <a href="https://soundcloud.com/juan_mj_10/led-zeppelin-rock-n-roll" title="Led Zeppelin - Rock N&#x27; Roll" target="_blank" style="color: #cccccc; text-decoration: none;">Led Zeppelin - Rock N&#x27; Roll</a></div>
-
     <h3><a name="IncorporarVideos">Incorporar vídeos ao site</h3>
     <p>O YouTube é uma das principais plataformas onde são disponibilizados vídeos, uma vez que é a melhor opção para se hospedá-los, ja que muitos são longos e necessitam de um armazenamento maior.</p>
     <p>Para realizar a incorporação deve:</p>
@@ -65,8 +65,45 @@
     </figure>
     <p>No navegador:</p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/fYJl-7jRzuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+    <h2><a name="Tagvideo">Tag video</h2>
+    <p>É usada para inserir vídeos presentes em uma máquina localmente ou em um servidor de hospedagem.</p>
+    <p>Código:</p>
+    <figure>
+        <img src="img-RDE09/CódigoTAG_video.jpeg" alt="Código Tag video">
+        <figurecaption><br>Percebe-se que há três formas de inserir um video, isto porque caso algum dos formatos não abra ou não possua compatibilidade com o servidor, haverão outras opções de formatos.</figurecaption>
+    </figure>
+    <p>No navegador:</p>
+    <video poster="video-RDE09/Bike.jpg" controls>
+        <source src="video-RDE09/_Bike.mp4" type="video/mp4">
+        <source src="video-RDE09/Bike.webm" type="video/webm">
+        <source src="video-RDE09/Bike.ogv" type="video/ogv">
+    </video>
+    <h2><a name="Tagaudio">Tag de audio</h2>
+    <p>É usada para inserir áudios presentes em uma máquina localmente ou em um sevidor de hospedagem.<br> Obs: Para utilizar audios sem direitos autorais, basta acessar uma biblioteca do YouTube, a qual permite tal ação.</p>
+    <p>Código:</p>
+    <figure>
+        <img src="img-RDE09/CódigoTAG_audio.jpeg" alt="Código Tag audio">
+    </figure>
+    <p>No navegador:</p>
+    <audio preload="metadata" controls>
+        <source src="audio-RDE09/Hey Sailor - Letter Box.mp3" type="audio/mp3">
+        <source src="audio-RDE09/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+        <source src="audio-RDE09/Hey-Sailor-Letter-Box.wav" type="audio/wav">
+    </audio>
+    <h2><a name="Tagpicture">Tag picture</h2>
+    <p>Esta tag realiza o agrupamento de imagens. </p>
+    <p>Código:</p>
+    <figure>
+        <img src="img-RDE09/CódigoTAG_picture.jpeg" alt="Código Tag picture">
+        <figurecaption><br>Obs: Percebe-se que semelhantemente aos códigos das tags audio e video, o código da tag picture também possui mais de uma opção para o redimencionamento da imagem caso uma não venha a funcionar.</figurecaption>
+    </figure>
+    <p>No navegador:<br>(mude o tamanho da tela para testar o redimencionamento)</p>
+    <picture>
+        <source media="(max-width:500px)" srcset="img-RDE09/bike_110.jpg">
+        <source media="(max-width:700px)" srcset="img-RDE09/bike_320.jpg">
+        <source media="(max-width:1000px)" srcset="img-RDE09/bike_640.jpg">
+        <img src="img-RDE09/bike_full.jpg" alt="Mtb Por-do-Sol">
+    </picture>
 
 </body>
 </html>
