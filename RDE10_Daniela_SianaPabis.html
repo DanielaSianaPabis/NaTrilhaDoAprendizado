@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDE10-CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <h1>CSS-Cascading Style Sheets</h1>
+    <h2>Sumário:</h2>
+    <ul>
+        <li><a href=#Definição>Definição</a></li>
+        <li><a href=#FormasCSS>Fromas de usar o CSS</a></li>
+        <li><a href=#W3SchoolsCSS>W3Schools e o CSS</a></li>
+        <li><a href=#BrowserPreviewCSS>Browser Preview e o CSS</a></li>
+        <li><a href=#Envelopamento>Envelopamento</a></li>
+        <li><a href=#InlineCSS>CSS Inline</a></li>
+        <li><a href=#IncorporadoCSS>CSS Incorporado</a></li>
+        <li><a href=#ExternoCSS>CSS Externo</a></li>
+        <li><a href=#Comandos>Comandos de estilização</a></li> 
+    </ul>
+    <h2><a name="Definição"></a>Definição</h2>
+    <p>O CSS (Cascading Style Sheets), que significa Folhas de Estilo em Cascata, tem por finalidade fazer a estilização do conteúdo de um documento html, ou seja, define cores, fontes, espaçamentos, dentre outros, para uma melhor visualização do conteúdo.</p>
+    <figure>
+        <img src="img-RDE10/CSS e HTML.jpeg" alt="CSS e HTML">
+    </figure>
+    <p>Sintaxe:</p>
+    <figure>
+        <img src="img-RDE10/SintaxeCSS.jpeg" alt="Sintaxe genérica CSS">
+    </figure>
+    <p>Exemplo:</p>
+    <figure>
+        <img src="img-RDE10/SintaxeCSS_exemplo.jpeg" alt="Exemplo da sintaxe do CSS">
+    </figure>
+    <p>OBS: o seletor neste caso é o <b>p</b>, onde será realizada a busca no documento html de todos os <b>p</b>, atribuindo a estes uma determinada estilização. No exemplo acima, por exemplo, todos os parágrafos irão mudar para a cor azul e o alinhamento do texto será centralizado.</p>
+    <h2><a name="FormasCSS"></a>Formas de usar o CSS</h2>
+    <h3>Inline:</h3>
+    <ul>
+        <li>Os códigos em CSS são definidos <i>dentro de uma tag HTML específica</i></li>
+        <li>Afetam apenas a tag em especifico que foi definida</li>
+        <li>Exemplo: Afeta apenas um subtítulo (h2) que foi selecionado</li>
+    </ul>
+    <h3>Incorporado:</h3>
+    <ul>
+        <li>Os códigos em CSS são definidos no cabeçalho, <i>dentro da tag head</i></li>
+        <li>Afetam apenas o documento em que foi definido</li>
+        <li>Exemplo: Afeta todos os subtítulos (h2) de apenas um documento</li>
+    </ul>
+    <h3>Externo:</h3>
+    <ul>
+        <li>Os códigos em CSS são definidos <i>em um documento externo</i></li>
+        <li>Afetam todos os documentos que estão linkados ao CSS</li>
+        <li>Exemplo: Afeta todos subtítulos (h2) de todos os documentos que estão linkados ao CSS</li>
+    </ul>
+    <h2><a name="W3SchoolsCSS"></a>W3Schools e o CSS</h2>
+    <p>Para uma melhor compreensão e aprofundamento do assunto, acesse o <a href="https://www.w3schools.com/" target="_blank">W3Schools</a> e siga os passos descritos abaixo:</p>
+    <ol type="1">
+        <li>Clique em TUTORIALS
+            <figure>
+                <img src="img-RDE10/W3Schools_acessar1.jpeg" alt="Clique em Tutorials">
+            </figure>
+        </li>
+        <li>Clique em LEARN CSS
+            <figure>
+                <img src="img-RDE10/W3Schools_acessar2.jpeg" alt="Clique em Learn CSS">
+            </figure>
+        </li>
+        <li>Abrirá uma página para realizar um tutorial
+            <figure>
+                <img src="img-RDE10/W3Schools_acessar3.jpeg" alt="Realize um tutorial">
+            </figure>
+        </li>
+    </ol>
+    <h2><a name="BrowserPreviewCSS"></a>Browser Preview e o CSS</h2>
+    <p>Pode-se realizar a instalação da extensão Browser preview, afim de realizar a programação de um documento em um lado da tela e ver de forma simultânea como este está ficando no navegador. Para isso, deve seguir os passos abaixo:</p>
+    <ol type="1">
+        <li>Clique nesta opção
+            <figure>
+                <img src="img-RDE10/BPreview_adicionar1.jpeg" alt="Adicionar o Browser Preview pt1">
+            </figure>
+        </li>
+        <li>Digite o nome da extensão e clique na opção demarcada pela flecha
+            <figure>
+                <img src="img-RDE10/BPreview_adicionar2.jpeg" alt="Adicionar o Browser Preview pt2">
+            </figure>
+        </li>
+        <li>Acesse o Live Server e copie o endereço do seu documento HTML</li>
+        <li>Clique nesta opção para abrir a segunda janela e cole o endereço copiado
+            <figure>
+                <img src="img-RDE10/BPreview_adicionar3.jpeg" alt="Adicionar o Browser Preview pt3">
+            </figure>
+        </li>
+    </ol>
+    <h2><a name="Envelopamento"></a>Envelopamento</h2>
+    <p>Permite que você selecione uma parte do seu documento ainda não definida com uma tag específica, ou seja, uma parte avulsa, e a envelope de modo a inseri-la em uma tag. Para realizar esta ação siga os passos abaixo:</p>
+    <ol type="1">
+        <li>Selecione a parte desejada;</li>
+        <li>Precione CTRL+SHIFT+P;</li>
+        <li>Selecione a opção "Quebrar Linha com Abreviação;"</li>
+        <li>Digite a tag que deseja envolver na parte que foi selecionada, como: "h1" "p", etc;</li>
+        <li>Clique em ENTER no seu teclado para efetuar a ação.</li>
+    </ol>
+    <h2><a name="InlineCSS"></a>CSS Inline</h2>
+    <p>Recaptulando, a forma Inline define um código CSS dentro de uma tag em específica selecionada pelo usuário. Atente-se as imagens abaixo:</p>
+    <p>Códigos:</p>
+    <figure>
+        <img src="img-RDE10/CódigoTAG_bodyCSS.jpeg" alt="Código CSS na tag body">
+    </figure>
+    <figure>
+        <img src="img-RDE10/CódigoTAG_h1CSS.jpeg" alt="Código CSS na tag h1">
+    </figure>
+    <p>No navegador:</p>
+    <figure>
+        <img src="img-RDE10/CódigosBodyeH1_CSS.jpeg" alt="No navegador">
+    </figure>
+    <p>Perceba que o navegador ficou estilizado, com cores e fontes diferentes e isso se dá graças aos códigos CSS implementados acima... tanto na tag body quando na tag h1.</p>
+    <h2><a name="IncorporadoCSS"></a>CSS Incorporado</h2>
+    <p>Recaptulando, a forma Incorporado define um código CSS dentro de um documento em específico, sendo mais eficaz em relação ao Inline, já que em poucas linhas você consegue configurar todo o documento, diferentemente do Inline.</p>
+    <p>Código:</p>
+    <figure>
+        <img src="img-RDE10/CódigoCSS_Incorporado.jpeg" alt="Código CSS Incorporado">
+    </figure>
+    <p>No navegador:</p>
+    <figure>
+        <img src="img-RDE10/NavegadorCSS_Incorporado.jpeg" alt="Código no navegador Incorporado">
+    </figure>
+    <h2><a name="ExternoCSS"></a>CSS Externo</h2>
+    <p>Recaptulando, a forma Externo define um código CSS por meio de um link, ou seja, irá definir todos documentos que possuírem um determinado link imposto, o qual possuirá todas as definições de estilo. Para isso, atente-se as imagens abaixo:</p>
+    <ol type="1">
+        <li>Digite o link 
+            <figure>
+                <img src="img-RDE10/LinkCSS_Externo.jpeg" alt="Link do formato Externo de CSS">
+            </figure>
+        </li>
+        <li>Perceba que este ainda não foi criador, portanto, clique em CRIAR ARQUIVO 
+            <figure>
+                <img src="img-RDE10/ArquivoStyle.jpeg">
+            </figure>
+        </li>
+        <li>Após criado, irá abrir outra tela na qual você irá inserir as definições de estilo
+            <figure>
+                <img src="img-RDE10/CódigoCSS_Externo.jpeg" alt="Código do formato Externo de CSS">
+            </figure>
+        </li>
+        <li>Como fica no navegador
+            <figure>
+                <img src="img-RDE10/NavegadorCSS_Externo.jpeg" alt="Quando implementado no navegador">
+            </figure>
+        </li>
+    </ol>
+    <h2><a name="Comandos"></a>Comandos de estilização</h2>
+    <p>Color: cor das letras</p>
+    <p>Background-color: cor de fundo</p>
+    <p>Text-align: alinhar texto</p>
+    <p>Font-family: tipo de fonte</p>
+    <p>Font-size: regular o tamanho da fonte em pixels</p>
+
+</body>
+</html>
