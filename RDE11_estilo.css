@@ -1,0 +1,64 @@
+div{
+    background-color: blue;
+    margin:10px;
+}
+span{
+    font-weight: bold;
+}
+h1#principal{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color:lightblue;
+    background-color: royalblue;
+    border:2px solid rgb(0, 55, 221);
+}
+div.agrupamento{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:royalblue;
+    background-color: lightblue;
+    border:2px solid rgb(0, 55, 221);
+    margin:20px;
+    padding:10px;
+}
+.exemplo1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(138, 222, 226);
+    border:1px solid rgb(97, 159, 161);
+    margin:10px;
+    padding:10px;
+    width:80px;
+    height:30px;
+}
+.exemplo2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(138, 222, 226);
+    border:1px solid rgb(97, 159, 161);
+    margin:10px;
+    padding:10px;
+    width:80px;
+    height:30px;
+}
+.personalizado{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(108, 189, 216);
+    border:2px solid rgb(0, 55, 221);
+    margin:10px;
+    padding:10px;
+}
+.personalizado:hover{
+    color:rgb(9, 9, 88);
+    background-color: lightblue;
+    margin:30px;
+    padding:20px;
+}
+.pseudo > span{
+    display:none;
+}
+.pseudo:hover > span{
+    display:block;
+    background-color: dark;
+}
+h3::selection{
+    color:cyan;
+    background-color: cornflowerblue;
+}
