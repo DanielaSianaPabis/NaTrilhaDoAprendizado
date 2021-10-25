@@ -12,42 +12,128 @@
 <body>
     <h1 id="principal">Elementos block-level, inline e Seletores Personalizados</h1>
 
+    <div class="sumario">
+        <h2>Sumário:</h2>
+        <ul>
+            <li><a href=#Atalho>Atalho</a></li>
+            <li><a href=#AgrupamentoElementos>Agrupamento de elementos</a></li>
+            <li><a href=#Block-level>Elementos Block-level</a></li>
+            <li><a href=#ElementoInline>Elementos Inline</a></li>
+            <li><a href=#SeletoresPersonalizados>Seletores personalizados</a></li>
+            <li><a href=#SeletorId>Seletor do tipo id</a></li>
+            <li><a href=#SeletorClasse>Seletor do tipo classe</a></li>
+            <li><a href=#Pseudo-Classe>Pseudo-Classes</a></li>
+            <li><a href=#Pseudo-Elemento>Pseudo-Elementos</a></li>
+        </ul>
+    </div>
+
+    <div class="atalho">
+        <h2><a name="Atalho"></a>Atalho</h2>
+        <p>Ferramentas que facilitam a implementação de código se fazem muito úteis, quando tempo é um requisito importente. Assim, quando se quer inserir tags iguais em diferentes partes de um texto solto no documento html, basta:
+        <ol type="1">
+            <li>Precione o ALT e selecione com o mouse os títulos que deseja atribuir com uma mesma tag;</li>
+            <li>Depois, de o comando CTRL+SHIFT+P e selecione QUEBRAR LINHA COM ABREVIAÇÃO, e insira a tag almejada;</li>
+            <li>Verifique que agora as partes selecionadas foram contempladas pela tag.</li>
+        </ol>
+    </div>
+    </p>
+
     <div class="agrupamento">
-        <h2>Agrupamento de elementos</h2>
-        Os elementos &ltdiv&gt e &ltspan&gt são usados para agrupar e estruturar um documento e são frequentemente usados em conjunto com os atributos class e id.
+        <h2><a name="AgrupamentoElementos"></a>Agrupamento de elementos</h2>
+        <p>Os elementos &ltdiv&gt e &ltspan&gt são usados para agrupar e estruturar um documento e são frequentemente usados em conjunto com os atributos class e id.</p>
     </div>
 
     <div class="agrupamento">
-        <h2>Elementos Block-level</h2>
-        O elemento &ltdiv&gt é um elemento block-level. Tem a função de agrupar elementos html, definindo blocos de    contéudo sempre iniciando uma nova linha e ocupando toda a linha.
-        Exemplo:
+        <h2><a name="Block-level"></a>Elementos Block-level</h2>
+        <p>O elemento &ltdiv&gt é um elemento block-level. Tem a função de agrupar elementos html, definindo blocos de contéudo sempre iniciando uma nova linha e ocupando toda a linha.</p>
+        <p>Exemplo<br>No navegador:</p>
         <div class="exemplo1">Bloco 1</div>
         <div class="exemplo2">Bloco 2</div>
+        <p>No código:</p>
+        <figure>
+            <img src="img-RDE11/Código_Div.jpeg" alt="Código DIV">
+            <figurecaption><br>font-family: tipo de fonte;<br>background-color: cor de fundo;<br>border: borda;<br>margin: margem;<br>padding: preenchimento;<br>width: largura;<br>height: altura.</figurecaption>
+        </figure>
     </div>
-
     <div class="agrupamento">
-        <h2>Elementos Inline</h2>
-        O elemento &ltspan&gt é um elemento inline. É um <span>elemento neutro</span> embutidos que marcam um bloco dentro de uma mesma linha ou parágrafo. Pode ser usado pelo CSS para estilização de partes específicas do conteúdo do documento HTML
+        <h2><a name="ElementoInline"></a>Elementos Inline</h2>
+        <p>O elemento &ltspan&gt é um elemento inline. É um <span>elemento neutro</span> embutidos que marcam um bloco dentro de uma mesma linha ou parágrafo. Pode ser usado pelo CSS para estilização de partes específicas do conteúdo do documento HTML.</p>
+        <p>Exemplo</p>
+        <p>No código:</p>
+        <figure>
+            <img src="img-RDE11/Código_Span1.jpeg" alt="Código Span">
+        </figure>
+        <figure>
+            <img src="img-RDE11/Código_Span2.jpeg" alt="Código Span2">
+        <figurecaption><br>No arquivo css, realize esta função para que a frase que está demarcanda com o SPAN fique visível.</figurecaption>
+            </figure>
+        <p>No navegador:</p>
+        <figure>
+            <img src="img-RDE11/Span_Navegador.jpeg" alt="Código Span no navegador">
+        </figure>
     </div>
 
     <div class="personalizado">
-        <h2>Seletores Personalizados</h2>
-        Possibilita personalizar tags do documento HTML para estilização. Temos os seletores do tipo classe e o seletor do tipo id
-        <h3>Seletor do tipo classe</h3>
-        O seletor de classe seleciona elementos HTML com um atributo de classe específico.O seletor de classe é    representado por um ponto, “.”, e tem como alvo elementos com um determinado valor para seu atributo class. Para casos em que haja necessidade de mais de um elemento com a mesma identificação usamos o atributo class.
-        <h3>Seletor do tipo id</h3>
-        O seletor de id usa o atributo id de um elemento HTML para selecionar um elemento específico. Cada id é única. O seletor de id é representado por “#”.
+        <h2><a name="SeletoresPersonalizados"></a>Seletores Personalizados</h2>
+        <p>Possibilita personalizar tags do documento HTML para estilização. Temos os seletores do tipo classe e o seletor do tipo id.</p>
+
+        <h3><a name="SeletorId"></a>Seletor do tipo id</h3>
+        <p>O seletor de id usa o atributo id de um elemento HTML para selecionar um elemento específico. Cada id é única. O seletor de id é representado por “#”.</p>
+        <p>Exemplo:</p>
+        <figure>
+            <img src="img-RDE11/Código_Id1.jpeg" alt="Código id 1">
+            <figurecaption><br>"principal" remete-se ao nome da id.</figurecaption>
+        </figure>
+        <figure>
+            <img src="img-RDE11/Código_Id2.jpeg" alt="Código id 2">
+            <figurecaption><br>Note que o símbolo # foi utilizado para demarcar o id.</figurecaption>
+        </figure>
+        <h3><a name="SeletorClasse"></a>Seletor do tipo classe</h3>
+        <p>O seletor de classe seleciona elementos HTML com um atributo de classe específico.O seletor de classe é representado por um ponto, “.”, e tem como alvo elementos com um determinado valor para seu atributo class. Para casos em que haja necessidade de mais de um elemento com a mesma identificação usamos o atributo class.<br>Em outras palavras, se o usuário quiser que algumas DIVs fiquem estilizadas de determinado tipo e outras DIVs de outro tipo, utilizamos o seletor do tipo classe, pois este irá realizar tal ação de modo mais eficaz.</p>
+        <p>Exemplo:</p>
+        <figure>
+            <img src="img-RDE11/Código_Class1.jpeg" alt="Código tipo classe 1">
+            <figurecaption><br>Estas DIVs foram selecionadas e atribuidas com um nome de classe em comum, "agrupamento".</figurecaption>
+        </figure>
+        <figure>
+            <img src="img-RDE11/Código_Class2.jpeg" alt="Código tipo classe 2">
+            <figurecaption><br>A estilização foi feita na imagem acima, portanto, todas as DIVs com o mesmo nome de classe ficarão igualmente estilizadas.<br>Obs: Pode-se escrever <font color="orange"><b>div.agrupamento</b></font> ou apenas <font color="orange"><b>.agrupamento</b></font></figurecaption>
+        </figure>
 
         <div class="pseudo">
-        <h3>Pseudo-Classes</h3>
-        Usada para definir um estado especial de um elemento. O seletor de classe é representado por dois pontos, “:”. Estão relacionados a um elemento ou uma classe.
-        <span><br>Exemplo:<br>Hover
-        <br>Active
-        <br>Visited </span>
+            <h3><a name="Pseudo-Classe"></a>Pseudo-Classes</h3>
+            <p>Usada para definir um estado especial de um elemento. O seletor de classe é representado por dois pontos, “:”. Estão relacionados a um elemento ou uma classe.</p>
+            <span>
+                <p>Exemplos:</p>
+                <p><a href="https://www.w3schools.com/cssref/sel_hover.asp" target="_blank">Hover</a></p>
+                <p><a href="https://www.w3schools.com/cssref/sel_active.asp" target="_blank">Active</a></p>
+                <p><a href="https://www.w3schools.com/cssref/sel_visited.asp" target="_blank">Visited</a></p>
+
+            </span>
         </div>
 
-        <h3>Pseudo-Elementos</h3>
-        Usado para estilizar partes específicas de um elemento.O seletor de classe é representado por dois pontos seguido de dois pontos, “::”
+        <h3><a name="Pseudo-Elemento"></a>Pseudo-Elementos</h3>
+        <p>Usado para estilizar partes específicas de um elemento.O seletor de classe é representado por dois pontos seguido de dois pontos, “::”</p>
+        <p>Existem disversos tipos de pseudo-Elementos, dos quais podemos citar como exemplo:</p>
+        <ol type="1">
+            <li>Mudar a cor do texto quando se preciona o mouse sobre ele
+                <figure>
+                    <img src="img-RDE11/Código_Selection.jpeg" alt="Código Selection">
+                </figure>
+                <figure>
+                    <img src="img-RDE11/Navegador_Selection.jpeg"alt="Navegador Selection">
+                </figure>
+            </li>
+            <li>Enfatizar a primeira letra de um texto
+                <figure>
+                    <img src="img-RDE11/Código_FirstLetter.jpeg" alt="Código First Letter">
+                </figure>
+                <figure>
+                    <img src="img-RDE11/Navegador_FirstLetter.jpeg" alt="Navegador First Letter">
+                </figure>
+            </li>
+        </ol>
     </div>
+
 </body>
 </html>
