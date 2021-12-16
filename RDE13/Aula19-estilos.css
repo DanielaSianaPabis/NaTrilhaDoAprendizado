@@ -1,0 +1,118 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 80%;
+    height: 100%;
+    margin-top:50px;
+    margin-right:50px;
+    margin-bottom:50px;
+    border-style:solid;
+    border-width:2px;
+    border-color:blue;
+    padding:20px;
+}
+
+h1{
+    background-color: darkblue;
+    color:white;
+    width:300px;
+    height:40px;
+    margin:50px;
+    border:2px dashed darkgray;
+    padding:20px;
+    /*no navegador, ao clicar com o botão direito em INSPECIONAR, você pode editar diretamente o BoxModel*/
+}
+
+p{
+    display:inline;
+    background-color: rgb(230, 207, 207);
+    /*block, tipo o parágrafo, ocupa toda a linha*/
+
+}
+
+span{
+    display:block;
+    background-color: blueviolet;
+    /*inline level, tipo o SPAN, não ocupa toda a linha*/
+}
+
+.box1{
+    position:static;
+    background-color: green;
+    width:400px;
+    height:50px;
+}
+.box2{
+    position:relative;
+    width:400px;
+    height:50px;
+    background-color: yellow;
+    bottom:50px;
+    left:450px;
+
+}
+.box3{
+    position:absolute;
+    background-color: blue;
+    width:400px;
+    height:50px;
+    top:500px;
+    left:500px;
+}
+.box4{
+    position:fixed;
+    background-color: orangered;
+    width:400px;
+    height:50px;
+    top:0px;
+    left:0px;
+}
+.box5{
+    position:sticky;
+    background-color: orange;
+    bottom: 200px;
+    left:150px;
+}
+
+.layer1{
+    position:relative;
+    background-color: cadetblue;
+    width: 80px;
+    height: 70px;
+    bottom:0px;
+    left:25px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    z-index:2;
+}
+.layer2{
+    position:relative;
+    background-color: coral;
+    width: 80px;
+    height: 70px;
+    bottom:20px;
+    left:50px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    z-index:1;
+
+}
+img#float_left{
+    float: left;
+    width:290px;
+    height:190px;
+    margin-right:15px;
+}
+img#float_right{
+    float: right;
+    width:290px;
+    height:190px;
+    margin-right:15px;
+}
+img#float_none{
+    float: none;
+    width:290px;
+    height:190px;
+    margin-right:15px;
+}
