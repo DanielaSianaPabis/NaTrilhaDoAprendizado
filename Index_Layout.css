@@ -1,0 +1,50 @@
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(25, 25, 48);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin:20px;
+}
+
+body{
+    background-color: rgb(166, 166, 201);
+}
+
+.logo img{
+    width: 45%;
+    padding-top: 50px;
+}
+
+.navegacao{
+    overflow: hidden; 
+}
+
+.navegacao a{
+    float: right;
+    display: block;
+    color: darkgray;
+    text-decoration: none;
+    text-align: right;
+    padding: 10px 10px;
+}
+
+.navegacao a:hover{
+    color: rgb(25, 25, 48);
+    background-color: rgb(166, 166, 201) ; 
+}
+
+.html h2{
+    text-align:center;
+    padding: 5px;
+}
+
+.html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-image:repeating-linear-gradient(to bottom, rgb(51, 51, 83), royalblue);
+    margin: 5px 700px 12px 20px;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+}
+
