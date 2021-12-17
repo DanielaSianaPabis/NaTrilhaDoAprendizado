@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(212, 245, 212);
+    font-family:cursive;
+    font-size: 20px;
+}
+div.h1{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color: rgb(17, 131, 22);
+}
+
+h2#H2Index{
+    text-align: center;
+    color:green;
+}
+div.inicio{
+    margin:120px;
+    border:4px solid white;
+    background-color: white;
+}
+
+div.historia{
+    font-family: cursive;
+    background-color: lightgreen;
+    color:white;
+    border:4px solid lightgreen;
+    margin:50px;
+}
+p#Topicoshistoria{
+    text-align: center;
+    border:4px solid lightgreen;
+    margin:90px;
+}
+div.historia2{
+    border:3px solid lightgreen;
+    margin:80px;
+    background-color: rgb(217, 240, 183);
+}
+
+p#paragrafoIndustria{
+    border:3px solid rgb(167, 243, 53);
+    margin:40px;
+}
+p#Topicosindustria{
+    text-align: center;
+    color:rgb(167, 243, 53);
+    background-color: white;
+    border:4px solid rgb(167, 243, 53);
+    margin:20px;
+    font-size: 22px;
+}
+div.ClasseIndustria{
+    background-color: rgb(252, 252, 252);
+    border:2px solid rgb(212, 245, 212);;
+    margin:55px;
+}
+
+p#paragrafoEducacao{
+    border:3px solid white;
+    margin:40px;
+    color:rgb(52, 65, 52);
+    background-color: rgb(212, 245, 212);
+}
+h3#Topicoseducacao{
+    text-align: center;
+    color:green;
+    background-color: white;
+    margin:20px;
+}
+div.ClasseEducacao{
+    background-color: rgb(107, 129, 92);
+    border:2px solid rgb(52, 65, 52);
+    margin:55px;
+    color:white;
+}
+
+p#paragrafoTurismo{
+    border:2px solid rgb(52, 65, 52);
+    margin:40px;
+}
+h3#Topicosturismo{
+    text-align: center;
+    color: white;
+    background-color: seagreen;
+    border:4px solid seagreen;
+    margin:20px;
+}
+div.ClasseTurismo{
+    background-color: rgb(156, 201, 156);
+    border:2px solid rgb(52, 65, 52);
+    margin:55px;
+}
+
+div.video{
+    text-align: center;
+}
+span{
+    background-color:greenyellow;
+}
+i:hover{
+    background-color: yellowgreen;
+}
+i:active{
+    color:red;
+}
+i:visited{
+    color:green;
+}
+
