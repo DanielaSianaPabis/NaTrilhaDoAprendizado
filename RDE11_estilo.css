@@ -1,5 +1,4 @@
 div{
-    background-color:rgb(204, 236, 247);
     margin:10px;
 }
 span{
@@ -84,7 +83,7 @@ div.agrupamento{
 }
 .pseudo:hover > span{
     display:block;
-    background-color: dark;
+    background-color: rgb(204, 236, 247);
 }
 
 .box1{
