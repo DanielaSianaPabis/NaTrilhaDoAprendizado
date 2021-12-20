@@ -41,13 +41,7 @@ header{
     padding: 14px;
 }
 
-.conteudo.lateral1{
-    width: 20%;
-    margin: 10px 2px 25px 2px;
-    background-color: gainsboro;
-}
-
-.conteudo.lateral2{
+.conteudo.lateral{
     width: 20%;
     margin: 10px 2px 25px 2px;
     background-color: gainsboro;
