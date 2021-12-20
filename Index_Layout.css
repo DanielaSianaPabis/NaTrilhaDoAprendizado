@@ -84,3 +84,16 @@ p#paragrafo{
 #java a:visited{
     color: red;
 }
+
+.rodape{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width:800px){
+    #java, .conteudo{
+        width: 100%;
+        padding: 0;
+    }
+    
+}
