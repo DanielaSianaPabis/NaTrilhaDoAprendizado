@@ -85,6 +85,28 @@ p#paragrafo{
     color: red;
 }
 
+#Lista01{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float:left;
+    color: white;
+    margin: 15px 2px 25px 2px;
+    background-image:linear-gradient(to bottom, black, #243c50);
+    margin: 20px;
+    width: 94.6%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#Lista01 h2{
+    text-align: center;
+    color: darkgray;
+}
+
+#Lista01 a:visited{
+    color: red;
+}
+
 .rodape{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
