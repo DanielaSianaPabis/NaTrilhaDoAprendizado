@@ -1,5 +1,5 @@
 function Enviar(){
-    var nome= document.getElementById("nome")
+    var nome = document.getElementById("nome")
     var email = document.getElementById("email")
     var datanasc = document.getElementById ("datanasc")
     var comentario = document.getElementById("comentario")
@@ -8,9 +8,10 @@ function Enviar(){
     if(nome.value!="" && nome.value.IndexOf(" ")!=-1){
         if(email.value.indexOf("@")!=-1){
             if(datanasc.value!="" && datanasc.value<'2011'){
-                if(comentario.valuelength>49){
+                if(comentario.value.length>49){
                     alert(nome.value +" Agradecemos o seu contato!")
                     ok=true
+
                 }
                 else{
                     alert("O comentário deve possuir no mínimo 50 caracteres!")
@@ -31,6 +32,7 @@ function Enviar(){
         alert("Prencha o seu nome completo e de forma correta!")
         ok=false
     }
+
     return ok
 
 }
