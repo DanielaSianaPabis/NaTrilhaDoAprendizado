@@ -16,4 +16,5 @@ function Enviar(){
         alert("Login incorreto!")
         ok=false
     }
+    return ok
 }
