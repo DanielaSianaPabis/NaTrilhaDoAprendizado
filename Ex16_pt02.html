@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Acessar o sistema</title>
+    <link rel="stylesheet" href="Ex16_pt02.css">
+    <script type="javascript" src="Ex16_pt02.js"></script>
 </head>
 <body>
-    
+    <h1>Formulário de Login e Senha do projeto "Trilha do Aprendizado"</h1>
+    <form name="Acessar" action="cadastrar.php" method="post" onsubmit="return Enviar()">
+
+        <label for="login">Nome completo</label>
+        <br><input type="text" id="login" placeholder="Digite seu nome completo">
+
+        <label for="senha">Senha</label>
+        <br><input type="text" id="login" placeholder="Digite sua senha">
+
+        <input type="submit" class="enviar" value="Enviar">
+    </form>
 </body>
 </html>
