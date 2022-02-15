@@ -1,8 +1,8 @@
 function Enviar(){
-    var nome = document.getElementById("nome")
-    var email = document.getElementById("email")
-    var datanasc = document.getElementById ("datanasc")
-    var comentario = document.getElementById("comentario")
+    var nome=document.getElementById("nome")
+    var email=document.getElementById("email")
+    var datanasc=document.getElementById ("datanasc")
+    var comentario=document.getElementById("comentario")
     var ok
     
     if(nome.value!="" && nome.value.IndexOf(" ")!=-1){
