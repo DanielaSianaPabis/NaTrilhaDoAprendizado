@@ -4,7 +4,7 @@ function Enviar(){
     var ok
     if(login.value=="aluno"){
         if(senha.value=="1234"){
-            alert(login.value+ "Você tem acesso ao sistema!")
+            alert(login.value+ " Você tem acesso ao sistema!")
             ok=true
         }
         else{
@@ -30,5 +30,3 @@ function Enviar(){
     }
     return ok
 }
-
-
