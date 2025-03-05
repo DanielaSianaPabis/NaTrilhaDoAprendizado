@@ -1,2 +1,2 @@
 # NaTrilhaDoAprendizado
- Na Trilha Do Aprendizado
+ Trabalho final apresentado à matéria de Desenvolvimento Web (ensino médio).
